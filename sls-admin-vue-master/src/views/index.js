@@ -7,11 +7,13 @@ import Function from './function/'
 import Adv from './adv/'
 import Demo from './demo/'
 import Components from './components/'
+import BaseData from './baseData/'
 
 export {
   Login,
   Function,
   Adv,
   Demo,
-  Components
+  Components,
+  BaseData
 }

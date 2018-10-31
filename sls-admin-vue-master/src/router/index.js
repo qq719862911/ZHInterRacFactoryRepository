@@ -13,6 +13,7 @@ import Adv from './adv/'
 import Function from './function/'
 import Demo from './demo/'
 import components from './components/'
+import BaseData from './baseData/'
 
 export default new Router({
   routes: [
@@ -32,6 +33,7 @@ export default new Router({
     Function,
     Demo,
     components,
-    Adv
+    Adv,
+    BaseData
   ]
 })
