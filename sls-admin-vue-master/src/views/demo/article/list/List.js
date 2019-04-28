@@ -292,7 +292,7 @@ export default {
       }
 
       if (where) {
-        data = Object.assign(data, where || {})
+        data = Object.assign(data, where || {})//方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象。Object.assign(target, ...sources)
       } else {
         for (var s in query) {
           if (this.search_data[s] !== undefined) {

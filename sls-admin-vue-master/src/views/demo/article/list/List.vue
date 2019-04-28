@@ -82,6 +82,7 @@
         @size-change='onChangePageSize'>
       </el-pagination>
     </el-col>
+
     <el-dialog size="small"
                :title="dialog.article_info.title"
                v-model="dialog.show"
@@ -92,6 +93,7 @@
           <el-button type="primary" @click="dialog.show = false">确 定</el-button>
       </span> -->
     </el-dialog>
+
   </div>
 </template>
 

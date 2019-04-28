@@ -28,6 +28,16 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+      /*
+      //待研究
+      '/myTestApi': {
+        target: 'http://127.0.0.1:1624',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/myTestApi': ''
+        }
+      },
+*/
       '/slsAdminApi': {
         target: 'http://php.slsadmin.org',
         changeOrigin: true,
@@ -42,6 +52,9 @@ module.exports = {
           '^/slsAdminQiniu': ''
         }
       }
+      /* */
+
+      /* */
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README

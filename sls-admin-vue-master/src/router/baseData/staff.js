@@ -14,8 +14,13 @@ export default {
   redirect: '/baseData/staff/list',
   children: [{
     path: 'list',
-    name: '文章列表',
+    name: '员工列表',
     icon: 'reorder',
     component: BaseData.Staff.List
+  },{
+    path: 'edit',
+    name: '员工编辑',
+    icon: 'reorder',
+    component: BaseData.Staff.Edit
   } ]
 }

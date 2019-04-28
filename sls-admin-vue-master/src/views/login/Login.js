@@ -98,6 +98,8 @@ export default {
           this.login_actions.disabled = true
           // 如果记住密码，提交的信息包括真实token，密码则是假的
           // 服务端登录验证优先级：用户名必须，其次先取token，不存在时再取密码
+          this.$router.push('/function/open/echarts')
+          /*
           this.$$api_user_login({
             data: this[ref],
             fn: data => {
@@ -143,10 +145,10 @@ export default {
             },
             tokenFlag: true
           })
+          */
         }
       })
     },
-
     onRegister (ref) {
       this.$refs[ref].validate((valid) => {
         if (valid) {

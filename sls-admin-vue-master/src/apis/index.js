@@ -14,6 +14,7 @@ import article from './article/'
 import order from './order/'
 import system from './system/'
 import test from './test/'
+import staff from './staff/'
 
 export default [{
   module: 'user',
@@ -35,4 +36,8 @@ export default [{
   module: 'test',
   name: '测试模块',
   list: test
+},{
+  module: 'staff',
+  name: '员工资料',
+  list: staff
 }]
